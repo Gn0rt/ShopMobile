@@ -1,24 +1,35 @@
-body{
+body {
     font-family: arial;
     font-size: 13px;
     color: #333;
 }
-#header{
+
+#header {
     background: #222;
 }
-#logo, #search, #cart{
+
+#logo h1 a img {
+    border-radius: 10px;
+}
+
+#logo h1 a img,
+#search,
+#cart {
     height: 60px;
 }
-#search{
+
+#search {
     padding-top: 14px;
 }
-#search input{
+
+#search input {
     width: 280px;
     height: 30px;
     font-size: 13px;
     border-radius: 3px 0 0 3px;
 }
-#search button{
+
+#search button {
     height: 30px;
     color: #FFF;
     font-size: 13px;
@@ -26,14 +37,18 @@ body{
     border: none;
     border-radius: 0 3px 3px 0;
 }
-#cart{
+
+#cart {
     padding-top: 14px;
 }
-#cart a, #cart span{
+
+#cart a,
+#cart span {
     color: #FFF;
     text-transform: capitalize;
 }
-#cart span{
+
+#cart span {
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -42,15 +57,18 @@ body{
     display: inline-block;
     border-radius: 100%;
 }
-#body{
+
+#body {
     background: #e7ecf4;
 }
-#menu ul{
+
+#menu ul {
     overflow: hidden;
     background: #EB1F27;
     padding: 0;
 }
-.menu-item{
+
+.menu-item {
     list-style: none;
     float: left;
     height: 40px;
@@ -58,44 +76,71 @@ body{
     padding: 0 15px;
     border-right: 1px solid #C60A11;
 }
-.menu-item:hover{
+
+.menu-item:hover {
     cursor: pointer;
     background: #C60A11;
 }
-.menu-item a{
+
+.menu-item a {
     color: #FFF;
 }
-.banner-item{
+
+.banner-item {
     margin-bottom: 10px;
 }
-.products h3{
+
+.products h3 {
     font-size: 18px;
     margin-top: 15px;
 }
-.product-list{
+
+.product-list {
     margin-left: -5px !important;
     margin-right: -5px !important;
 }
-.product-item{
+
+.product-item {
     padding: 5px;
 }
-.product-item-inner{
+
+.product-item-inner {
     text-align: center;
     padding: 10px;
 }
-.product-item-inner img{
+
+.product-item-inner img {
     width: 125px;
     height: 160px;
 }
-.product-item-inner h4 a{
+
+.product-item-inner h4 a {
     font-size: 13px;
     font-weight: bold;
     color: #333;
 }
-.product-item-inner p{
+
+.product-item-inner p {
     text-transform: capitalize;
 }
-.product-item-inner p span{
+
+.product-item-inner p span {
     color: #EB1F27;
     font-weight: bold;
+}
+
+#footer {
+    background-color: #333;
+    /* height: 60px; */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-logo {
+    padding: 10px;
+}
+
+.footer-logo img {
+    height: 80px;
+    border-radius: 10px;
 }
